@@ -8,13 +8,13 @@
 
 //example
 #include<stdio.h>
-#define AV_actress chongtianxinli
+#define AV_actress 3202412
 #ifndef AV_actress 
-#define AV_actress chongtianxinli_breast_big
+#define AV_actress 3202413
 #endif
 
 int main()
 {
-	printf("my favourite av actress is %s \n",AV_actress);
+	printf("my favourite av actress is %d\n",AV_actress);
 	return 0;
 }
