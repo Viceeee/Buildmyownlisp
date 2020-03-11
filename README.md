@@ -1,2 +1,2 @@
 # Buildmyownlisp
-study C 
+study C, 
