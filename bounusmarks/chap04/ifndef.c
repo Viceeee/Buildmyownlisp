@@ -1,4 +1,4 @@
- //#ifndef<token>
+//#ifndef<token>
 //code
 //#else
 //code to include if the token is defined

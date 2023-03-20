@@ -14,28 +14,30 @@ typedef struct Sanshangyouya
 int main(int argc , char** argv)
 {
 	Threesize threesizes;
+	Threesize shuibuying;
 
     threesizes.breastsize = 83;
 	threesizes.waistsize = 59;
 	threesizes.buttocksize = 88;
 	strcpy(threesizes.number,"还没查到三上优亚的番号");
+	shuibuying.breastsize = 79;
+	shuibuying.waistsize = 52;
+	shuibuying.buttocksize = 78;
+	strcpy(shuibuying.number, "\nMIDE-680\nMIDE-657\nMIDE-613\nMIDE-586\nMIDE-580\n");
 
 	printf("三上悠亚的胸围是:%d\n",threesizes.breastsize);
 	printf("三上悠亚的腰围是:%d\n",threesizes.waistsize);
 	printf("三上悠亚的臀围是:%d\n",threesizes.buttocksize);
 	printf("三上悠亚的番号是:%s\n",threesizes.number);
 	
+	printf("水卜樱的胸围是:%d\n",shuibuying.breastsize);
+	printf("水卜樱的腰围是:%d\n",shuibuying.waistsize);
+	printf("水卜樱的臀围是:%d\n",shuibuying.buttocksize);
+	printf("水卜樱的番号是:%s\n",shuibuying.number);
+
 	//使用puts函数的话
 	//puts("胸围是：)......
 	//算了，puts好像没有printf这个的功能这么齐全
-	puts("sanshangyouya's breastsize is:");
-	printf("%d\n",threesizes.breastsize);
-	puts("youya's waistsize is");
-	printf("%d\n",threesizes.waistsize);
-	puts("youya's buttocksize is");
-	printf("%d\n",threesizes.buttocksize);
-	puts("youya's number is");
-	printf("%s\n",threesizes.number);
 	return 0;
 }
 
