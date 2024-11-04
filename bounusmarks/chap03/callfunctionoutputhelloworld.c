@@ -13,6 +13,9 @@ int main(int argc,char** argv)
 	int n = 0;
 	puts("please enter a number ");
 	scanf("%d",&n);
-	helloworld(n);
+	if (n <0)
+	  printf("number must above 0\n");
+	else 
+	  helloworld(n);
 	return 0;
 }
